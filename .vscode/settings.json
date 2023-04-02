@@ -1,19 +1,19 @@
 {
     "python.languageServer": "Pylance",
     "python.autoComplete.extraPaths": [
-        "~/Desktop/gem5/build/X86/gem5.opt",
-        "~/Desktop/gem5/src",
-        "~/Desktop/gem5/configs",
-        "~/Desktop/gem5/ext",
-        "~/Desktop/gem5/tests",
-        "~/Desktop/gem5/util"
+        "D:/desktop/gem5/build/X86/gem5.opt",
+        "D:/desktop/gem5/src",
+        "D:/desktop/gem5/configs",
+        "D:/desktop/gem5/ext",
+        "D:/desktop/gem5/tests",
+        "D:/desktop/gem5/util"
     ],
     "python.analysis.extraPaths": [
-        "~/Desktop/gem5/build/X86/gem5.opt",
-        "~/Desktop/gem5/src",
-        "~/Desktop/gem5/configs",
-        "~/Desktop/gem5/ext",
-        "~/Desktop/gem5/tests",
-        "~/Desktop/gem5/util"
+        "D:/desktop/gem5/build/X86/gem5.opt",
+        "D:/desktop/gem5/src",
+        "D:/desktop/gem5/configs",
+        "D:/desktop/gem5/ext",
+        "D:/desktop/gem5/tests",
+        "D:/desktop/gem5/util"
     ]
 }
