@@ -2,6 +2,21 @@ import m5
 from m5.objects import *
 from caches import *
 
+# 使用 OptionParser 模块解析命令行参数
+import argparse
+
+parser = argparse.ArgumentParser(description='A simple system with 2-level cache.')
+parser.add_argument("binary", default="tests/test-progs/hello/bin/x86/linux/hello", nargs="?", type=str,
+                    help="Path to the binary to execute.")
+parser.add_argument("--l1i_size",
+                    help=f"L1 instruction cache size. Default: 16kB.")
+parser.add_argument("--l1d_size",
+                    help="L1 data cache size. Default: Default: 64kB.")
+parser.add_argument("--l2_size",
+                    help="L2 cache size. Default: 256kB.")
+
+options = parser.parse_args()
+
 # 创建系统
 system = System()
 
@@ -18,8 +33,8 @@ system.mem_ranges = [AddrRange('512MB')]
 system.cpu = X86TimingSimpleCPU()
 
 # 创建 L1 Cache
-system.cpu.icache = L1ICache()
-system.cpu.dcache = L1DCache()
+system.cpu.icache = L1ICache(options)
+system.cpu.dcache = L1DCache(options)
 
 # 将 Cache 连接到 CPU 端口
 system.cpu.icache.connectCPU(system.cpu)
@@ -35,7 +50,7 @@ system.cpu.dcache.connectBus(system.l2bus)
 system.membus = SystemXBar()
 
 # 创建 L2 Cache 并将其连接到 L2 总线和内存总线
-system.l2cache = L2Cache()
+system.l2cache = L2Cache(options)
 system.l2cache.connectCPUSideBus(system.l2bus)
 system.l2cache.connectMemSideBus(system.membus)
 
@@ -58,10 +73,9 @@ system.mem_ctrl.port = system.membus.mem_side_ports
 # 接下来，设置 CPU 要执行的进程
 
 # 创建进程
-binary = 'tests/test-progs/hello/bin/x86/linux/hello'
 
 # 设置 CPU 使用该进程作为工作负载，并在 CPU 中创建功能执行上下文
-system.workload = SEWorkload.init_compatible(binary)
+system.workload = SEWorkload.init_compatible(options.binary)
 
 process = Process()
 process.cmd = [binary]
