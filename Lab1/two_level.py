@@ -78,7 +78,7 @@ system.mem_ctrl.port = system.membus.mem_side_ports
 system.workload = SEWorkload.init_compatible(options.binary)
 
 process = Process()
-process.cmd = [binary]
+process.cmd = [options.binary]
 system.cpu.workload = process
 system.cpu.createThreads()
 
