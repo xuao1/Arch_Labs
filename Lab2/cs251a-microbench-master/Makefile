@@ -13,5 +13,5 @@ clean:
 	@rm -f $(EXEC)
 
 gen_arr:
-	python rand_c_arr.py --len=8192 --range=1000000
-	python rand_spmv_arrs.py
+	python3 rand_c_arr.py --len=8192 --range=1000000
+	python3 rand_spmv_arrs.py
