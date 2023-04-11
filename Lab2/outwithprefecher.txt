@@ -1,0 +1,949 @@
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:18:02
+gem5 executing on ubuntu, pid 33989
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 33661000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:18:03
+gem5 executing on ubuntu, pid 33992
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 59732000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:18:04
+gem5 executing on ubuntu, pid 34025
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 35684000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:18:06
+gem5 executing on ubuntu, pid 34041
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 26740500 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:18:07
+gem5 executing on ubuntu, pid 34057
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 50843000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:18:09
+gem5 executing on ubuntu, pid 34073
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 50843000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:18:10
+gem5 executing on ubuntu, pid 34089
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 50843000 because exiting with last active thread context
+
+
+
+
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:18:12
+gem5 executing on ubuntu, pid 34104
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1770076000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:18:45
+gem5 executing on ubuntu, pid 34129
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 4674848000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:19:09
+gem5 executing on ubuntu, pid 34170
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3075236000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:19:45
+gem5 executing on ubuntu, pid 34210
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 486378500 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:20:12
+gem5 executing on ubuntu, pid 34251
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1806446000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:20:41
+gem5 executing on ubuntu, pid 34289
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1806446000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:21:16
+gem5 executing on ubuntu, pid 34328
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1806446000 because exiting with last active thread context
+
+
+
+
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:21:49
+gem5 executing on ubuntu, pid 34375
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3554061000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:22:57
+gem5 executing on ubuntu, pid 34427
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 20402614000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:24:34
+gem5 executing on ubuntu, pid 34477
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 7385364000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:26:12
+gem5 executing on ubuntu, pid 34526
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1482066000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:27:25
+gem5 executing on ubuntu, pid 34573
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3390600000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:28:44
+gem5 executing on ubuntu, pid 34623
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3390600000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:29:54
+gem5 executing on ubuntu, pid 34669
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3390600000 because exiting with last active thread context
+
+
+
+
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:31:07
+gem5 executing on ubuntu, pid 34715
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+runbenchmarkvm-prefetcher.sh: line 3: 34715 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:31:08
+gem5 executing on ubuntu, pid 34757
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+runbenchmarkvm-prefetcher.sh: line 3: 34757 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:31:09
+gem5 executing on ubuntu, pid 34775
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+runbenchmarkvm-prefetcher.sh: line 3: 34775 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:31:10
+gem5 executing on ubuntu, pid 34791
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+runbenchmarkvm-prefetcher.sh: line 3: 34791 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:31:12
+gem5 executing on ubuntu, pid 34808
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+runbenchmarkvm-prefetcher.sh: line 3: 34808 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:31:13
+gem5 executing on ubuntu, pid 34826
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+runbenchmarkvm-prefetcher.sh: line 3: 34826 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:31:15
+gem5 executing on ubuntu, pid 34841
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+runbenchmarkvm-prefetcher.sh: line 3: 34841 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+
+
+
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:31:16
+gem5 executing on ubuntu, pid 34858
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 30593681000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:35:32
+gem5 executing on ubuntu, pid 35299
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 122233832000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:39:22
+gem5 executing on ubuntu, pid 35374
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 30255181000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:42:40
+gem5 executing on ubuntu, pid 35452
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 30393596500 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:45:33
+gem5 executing on ubuntu, pid 35501
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 28372063000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:47:11
+gem5 executing on ubuntu, pid 35549
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 19752948000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.1.0.0
+gem5 compiled Apr  8 2023 08:33:31
+gem5 started Apr 11 2023 06:48:39
+gem5 executing on ubuntu, pid 35597
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+
+**** REAL SIMULATION ****
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 13604256000 because exiting with last active thread context
+
+
+
+
+
+
+
+
