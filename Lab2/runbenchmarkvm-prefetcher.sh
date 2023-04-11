@@ -35,7 +35,7 @@ do
         --l1i_size=64kB \
         --cpu-clock=1GHz \
         --cmd=$cmd \
-        --l1d-hwp-type=MultiPrefetcher
+        --l1d-hwp-type=AMPMPrefetcher
     cp -r m5out "/home/xxa/Desktop/tmpfile/${outfile}0"
     echo -e "\n\n\n"
 
@@ -48,7 +48,7 @@ do
         --l1i_size=64kB \
         --cpu-clock=1GHz \
         --cmd=$cmd \
-        --l1d-hwp-type=MultiPrefetcher
+        --l1d-hwp-type=AMPMPrefetcher
     cp -r m5out "/home/xxa/Desktop/tmpfile/${outfile}1"
     echo -e "\n\n\n"
 
@@ -61,7 +61,7 @@ do
         --l1i_size=64kB \
         --cpu-clock=1GHz \
         --cmd=$cmd \
-        --l1d-hwp-type=MultiPrefetcher
+        --l1d-hwp-type=AMPMPrefetcher
     cp -r m5out "/home/xxa/Desktop/tmpfile/${outfile}2"
     echo -e "\n\n\n"
 
@@ -74,7 +74,7 @@ do
         --l1i_size=64kB \
         --cpu-clock=4GHz \
         --cmd=$cmd \
-        --l1d-hwp-type=MultiPrefetcher
+        --l1d-hwp-type=AMPMPrefetcher
     cp -r m5out "/home/xxa/Desktop/tmpfile/${outfile}3"
     echo -e "\n\n\n"
 
@@ -89,8 +89,8 @@ do
         --l2_size=256kB \
         --cpu-clock=1GHz \
         --cmd=$cmd \
-        --l1d-hwp-type=MultiPrefetcher \
-        --l2-hwp-type=MultiPrefetcher 
+        --l1d-hwp-type=AMPMPrefetcher \
+        --l2-hwp-type=AMPMPrefetcher 
     cp -r m5out "/home/xxa/Desktop/tmpfile/${outfile}4"
     echo -e "\n\n\n"
 
@@ -105,8 +105,8 @@ do
         --l2_size=2MB \
         --cpu-clock=1GHz \
         --cmd=$cmd \
-        --l1d-hwp-type=MultiPrefetcher \
-        --l2-hwp-type=MultiPrefetcher
+        --l1d-hwp-type=AMPMPrefetcher \
+        --l2-hwp-type=AMPMPrefetcher
     cp -r m5out "/home/xxa/Desktop/tmpfile/${outfile}5"
     echo -e "\n\n\n"
 
@@ -121,8 +121,8 @@ do
         --l2_size=16MB \
         --cpu-clock=1GHz \
         --cmd=$cmd \
-        --l1d-hwp-type=MultiPrefetcher \
-        --l2-hwp-type=MultiPrefetcher
+        --l1d-hwp-type=AMPMPrefetcher \
+        --l2-hwp-type=AMPMPrefetcher
     cp -r m5out "/home/xxa/Desktop/tmpfile/${outfile}6"
     echo -e "\n\n\n"
     echo -e "\n\n\n"
