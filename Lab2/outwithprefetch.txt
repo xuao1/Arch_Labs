@@ -6,9 +6,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:18:02
-gem5 executing on ubuntu, pid 33989
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:16:32
+gem5 executing on ubuntu, pid 2319
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -18,7 +18,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 33661000 because exiting with last active thread context
+Exiting @ tick 31855000 because exiting with last active thread context
 
 
 
@@ -33,9 +33,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:18:03
-gem5 executing on ubuntu, pid 33992
-command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:16:33
+gem5 executing on ubuntu, pid 2322
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -44,7 +44,7 @@ warn: No dot file generated. Please install pydot to generate the dot file and p
 build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 59732000 because exiting with last active thread context
+Exiting @ tick 57495000 because exiting with last active thread context
 
 
 
@@ -57,9 +57,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:18:04
-gem5 executing on ubuntu, pid 34025
-command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:16:34
+gem5 executing on ubuntu, pid 2364
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -69,7 +69,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 35684000 because exiting with last active thread context
+Exiting @ tick 33772000 because exiting with last active thread context
 
 
 
@@ -82,9 +82,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:18:06
-gem5 executing on ubuntu, pid 34041
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:16:35
+gem5 executing on ubuntu, pid 2383
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -94,7 +94,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 26740500 because exiting with last active thread context
+Exiting @ tick 25208500 because exiting with last active thread context
 
 
 
@@ -107,9 +107,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:18:07
-gem5 executing on ubuntu, pid 34057
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:16:35
+gem5 executing on ubuntu, pid 2400
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -119,7 +119,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 50843000 because exiting with last active thread context
+Exiting @ tick 40502000 because exiting with last active thread context
 
 
 
@@ -132,9 +132,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:18:09
-gem5 executing on ubuntu, pid 34073
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:16:36
+gem5 executing on ubuntu, pid 2413
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -144,7 +144,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 50843000 because exiting with last active thread context
+Exiting @ tick 40502000 because exiting with last active thread context
 
 
 
@@ -157,9 +157,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:18:10
-gem5 executing on ubuntu, pid 34089
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:16:37
+gem5 executing on ubuntu, pid 2430
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -169,7 +169,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 50843000 because exiting with last active thread context
+Exiting @ tick 40502000 because exiting with last active thread context
 
 
 
@@ -186,9 +186,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:18:12
-gem5 executing on ubuntu, pid 34104
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:16:39
+gem5 executing on ubuntu, pid 2444
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -198,7 +198,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 1770076000 because exiting with last active thread context
+Exiting @ tick 1763818000 because exiting with last active thread context
 
 
 
@@ -213,9 +213,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:18:45
-gem5 executing on ubuntu, pid 34129
-command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:16:58
+gem5 executing on ubuntu, pid 2612
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -224,7 +224,7 @@ warn: No dot file generated. Please install pydot to generate the dot file and p
 build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 4674848000 because exiting with last active thread context
+Exiting @ tick 4651494000 because exiting with last active thread context
 
 
 
@@ -237,9 +237,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:19:09
-gem5 executing on ubuntu, pid 34170
-command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:17:13
+gem5 executing on ubuntu, pid 2756
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -249,7 +249,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 3075236000 because exiting with last active thread context
+Exiting @ tick 3058488000 because exiting with last active thread context
 
 
 
@@ -262,9 +262,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:19:45
-gem5 executing on ubuntu, pid 34210
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:17:36
+gem5 executing on ubuntu, pid 2795
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -274,7 +274,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 486378500 because exiting with last active thread context
+Exiting @ tick 469566500 because exiting with last active thread context
 
 
 
@@ -287,9 +287,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:20:12
-gem5 executing on ubuntu, pid 34251
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:18:07
+gem5 executing on ubuntu, pid 2842
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -299,7 +299,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 1806446000 because exiting with last active thread context
+Exiting @ tick 1771324000 because exiting with last active thread context
 
 
 
@@ -312,9 +312,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:20:41
-gem5 executing on ubuntu, pid 34289
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:18:41
+gem5 executing on ubuntu, pid 2884
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -324,7 +324,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 1806446000 because exiting with last active thread context
+Exiting @ tick 1771324000 because exiting with last active thread context
 
 
 
@@ -337,9 +337,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:21:16
-gem5 executing on ubuntu, pid 34328
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:19:06
+gem5 executing on ubuntu, pid 2925
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -349,7 +349,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 1806446000 because exiting with last active thread context
+Exiting @ tick 1771324000 because exiting with last active thread context
 
 
 
@@ -366,9 +366,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:21:49
-gem5 executing on ubuntu, pid 34375
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:19:25
+gem5 executing on ubuntu, pid 2961
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -378,7 +378,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 3554061000 because exiting with last active thread context
+Exiting @ tick 3692900000 because exiting with last active thread context
 
 
 
@@ -393,9 +393,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:22:57
-gem5 executing on ubuntu, pid 34427
-command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:20:11
+gem5 executing on ubuntu, pid 3002
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -404,7 +404,7 @@ warn: No dot file generated. Please install pydot to generate the dot file and p
 build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 20402614000 because exiting with last active thread context
+Exiting @ tick 20566579000 because exiting with last active thread context
 
 
 
@@ -417,9 +417,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:24:34
-gem5 executing on ubuntu, pid 34477
-command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:21:09
+gem5 executing on ubuntu, pid 3063
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -429,7 +429,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 7385364000 because exiting with last active thread context
+Exiting @ tick 7430683000 because exiting with last active thread context
 
 
 
@@ -442,9 +442,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:26:12
-gem5 executing on ubuntu, pid 34526
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:22:06
+gem5 executing on ubuntu, pid 3108
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -454,7 +454,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 1482066000 because exiting with last active thread context
+Exiting @ tick 1719728000 because exiting with last active thread context
 
 
 
@@ -467,9 +467,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:27:25
-gem5 executing on ubuntu, pid 34573
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:22:57
+gem5 executing on ubuntu, pid 3161
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -479,7 +479,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 3390600000 because exiting with last active thread context
+Exiting @ tick 3265103000 because exiting with last active thread context
 
 
 
@@ -492,9 +492,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:28:44
-gem5 executing on ubuntu, pid 34623
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:23:41
+gem5 executing on ubuntu, pid 3208
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -504,7 +504,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 3390600000 because exiting with last active thread context
+Exiting @ tick 3265103000 because exiting with last active thread context
 
 
 
@@ -517,9 +517,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:29:54
-gem5 executing on ubuntu, pid 34669
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:24:29
+gem5 executing on ubuntu, pid 3375
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -529,7 +529,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-Exiting @ tick 3390600000 because exiting with last active thread context
+Exiting @ tick 3265103000 because exiting with last active thread context
 
 
 
@@ -546,9 +546,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:31:07
-gem5 executing on ubuntu, pid 34715
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:25:14
+gem5 executing on ubuntu, pid 3429
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -558,7 +558,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-runbenchmarkvm-prefetcher.sh: line 3: 34715 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher
+Exiting @ tick 35582936000 because exiting with last active thread context
 
 
 
@@ -573,9 +573,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:31:08
-gem5 executing on ubuntu, pid 34757
-command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:27:03
+gem5 executing on ubuntu, pid 3518
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -584,7 +584,7 @@ warn: No dot file generated. Please install pydot to generate the dot file and p
 build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulation...
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-runbenchmarkvm-prefetcher.sh: line 3: 34757 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher
+Exiting @ tick 52253930000 because exiting with last active thread context
 
 
 
@@ -597,9 +597,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:31:09
-gem5 executing on ubuntu, pid 34775
-command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:29:11
+gem5 executing on ubuntu, pid 3566
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -609,7 +609,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-runbenchmarkvm-prefetcher.sh: line 3: 34775 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher
+Exiting @ tick 37086565000 because exiting with last active thread context
 
 
 
@@ -622,9 +622,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:31:10
-gem5 executing on ubuntu, pid 34791
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:31:08
+gem5 executing on ubuntu, pid 3621
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -634,7 +634,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-runbenchmarkvm-prefetcher.sh: line 3: 34791 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher
+Exiting @ tick 32644636500 because exiting with last active thread context
 
 
 
@@ -647,9 +647,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:31:12
-gem5 executing on ubuntu, pid 34808
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:34:42
+gem5 executing on ubuntu, pid 3710
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -659,7 +659,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-runbenchmarkvm-prefetcher.sh: line 3: 34808 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+Exiting @ tick 41798054000 because exiting with last active thread context
 
 
 
@@ -672,9 +672,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:31:13
-gem5 executing on ubuntu, pid 34826
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:36:46
+gem5 executing on ubuntu, pid 3770
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -684,7 +684,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-runbenchmarkvm-prefetcher.sh: line 3: 34826 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+Exiting @ tick 17300234000 because exiting with last active thread context
 
 
 
@@ -697,9 +697,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:31:15
-gem5 executing on ubuntu, pid 34841
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:38:09
+gem5 executing on ubuntu, pid 3820
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -709,7 +709,7 @@ build/X86/sim/simulate.cc:192: info: Entering event queue @ 0.  Starting simulat
 build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
-runbenchmarkvm-prefetcher.sh: line 3: 34841 Floating point exception(core dumped) build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=$cmd --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+Exiting @ tick 17300234000 because exiting with last active thread context
 
 
 
@@ -726,9 +726,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:31:16
-gem5 executing on ubuntu, pid 34858
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:39:30
+gem5 executing on ubuntu, pid 3865
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -745,7 +745,7 @@ build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
-Exiting @ tick 30593681000 because exiting with last active thread context
+Exiting @ tick 29990756000 because exiting with last active thread context
 
 
 
@@ -760,9 +760,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:35:32
-gem5 executing on ubuntu, pid 35299
-command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:42:11
+gem5 executing on ubuntu, pid 3933
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=X86MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -778,7 +778,7 @@ build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
-Exiting @ tick 122233832000 because exiting with last active thread context
+Exiting @ tick 117191795000 because exiting with last active thread context
 
 
 
@@ -791,9 +791,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:39:22
-gem5 executing on ubuntu, pid 35374
-command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:45:05
+gem5 executing on ubuntu, pid 3994
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -810,7 +810,7 @@ build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
-Exiting @ tick 30255181000 because exiting with last active thread context
+Exiting @ tick 30340445000 because exiting with last active thread context
 
 
 
@@ -823,9 +823,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:42:40
-gem5 executing on ubuntu, pid 35452
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:47:48
+gem5 executing on ubuntu, pid 4056
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -842,7 +842,7 @@ build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
-Exiting @ tick 30393596500 because exiting with last active thread context
+Exiting @ tick 29593203500 because exiting with last active thread context
 
 
 
@@ -855,9 +855,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:45:33
-gem5 executing on ubuntu, pid 35501
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:52:16
+gem5 executing on ubuntu, pid 4113
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -874,7 +874,7 @@ build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
-Exiting @ tick 28372063000 because exiting with last active thread context
+Exiting @ tick 21488031000 because exiting with last active thread context
 
 
 
@@ -887,9 +887,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:47:11
-gem5 executing on ubuntu, pid 35549
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:54:44
+gem5 executing on ubuntu, pid 4162
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -906,7 +906,7 @@ build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
-Exiting @ tick 19752948000 because exiting with last active thread context
+Exiting @ tick 14058059000 because exiting with last active thread context
 
 
 
@@ -919,9 +919,9 @@ gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 version 22.1.0.0
 gem5 compiled Apr  8 2023 08:33:31
-gem5 started Apr 11 2023 06:48:39
-gem5 executing on ubuntu, pid 35597
-command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=MultiPrefetcher --l2-hwp-type=MultiPrefetcher
+gem5 started Apr 11 2023 08:58:32
+gem5 executing on ubuntu, pid 4220
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv --l1d-hwp-type=AMPMPrefetcher --l2-hwp-type=AMPMPrefetcher
 
 **** REAL SIMULATION ****
 warn: The `get_runtime_isa` function is deprecated. Please migrate away from using this function.
@@ -938,7 +938,7 @@ build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
 build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
-Exiting @ tick 13604256000 because exiting with last active thread context
+Exiting @ tick 11723025000 because exiting with last active thread context
 
 
 
