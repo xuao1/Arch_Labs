@@ -1,0 +1,873 @@
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:18:29
+gem5 executing on ubuntu, pid 190231
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 32409000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:18:30
+gem5 executing on ubuntu, pid 190233
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 57691000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:18:30
+gem5 executing on ubuntu, pid 190248
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 34386000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:18:30
+gem5 executing on ubuntu, pid 190259
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 25568500 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:18:31
+gem5 executing on ubuntu, pid 190271
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 48947000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:18:31
+gem5 executing on ubuntu, pid 190282
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 48947000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:18:32
+gem5 executing on ubuntu, pid 190293
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/lfsr
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 48947000 because exiting with last active thread context
+
+
+
+
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:18:32
+gem5 executing on ubuntu, pid 190308
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1769870000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:18:42
+gem5 executing on ubuntu, pid 190349
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 4674926000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:18:50
+gem5 executing on ubuntu, pid 190382
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3074216000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:19:01
+gem5 executing on ubuntu, pid 190398
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 485231500 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:19:11
+gem5 executing on ubuntu, pid 190442
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1805059000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:19:20
+gem5 executing on ubuntu, pid 190458
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1805059000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:19:31
+gem5 executing on ubuntu, pid 190473
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/merge
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1805059000 because exiting with last active thread context
+
+
+
+
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:19:44
+gem5 executing on ubuntu, pid 190514
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3551471000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:20:04
+gem5 executing on ubuntu, pid 190576
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 20402614000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:20:29
+gem5 executing on ubuntu, pid 190611
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 7382404000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:20:53
+gem5 executing on ubuntu, pid 190680
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 1484017000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:21:13
+gem5 executing on ubuntu, pid 190700
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3386216000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:21:31
+gem5 executing on ubuntu, pid 190737
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3386216000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:21:48
+gem5 executing on ubuntu, pid 190774
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/mm
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 3386216000 because exiting with last active thread context
+
+
+
+
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:22:05
+gem5 executing on ubuntu, pid 190811
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 53448207000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:23:03
+gem5 executing on ubuntu, pid 190898
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 55761680000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:24:06
+gem5 executing on ubuntu, pid 190925
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 54132727000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:25:06
+gem5 executing on ubuntu, pid 191047
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 50489781500 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:27:29
+gem5 executing on ubuntu, pid 191182
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 81516642000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:28:44
+gem5 executing on ubuntu, pid 191262
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 25130090000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:29:23
+gem5 executing on ubuntu, pid 191309
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/sieve
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+Exiting @ tick 25130090000 because exiting with last active thread context
+
+
+
+
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:30:04
+gem5 executing on ubuntu, pid 191386
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 30593681000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+build/X86/base/statistics.hh:280: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:31:12
+gem5 executing on ubuntu, pid 191467
+command line: build/X86/gem5.opt configs/example/se.py --cpu-type=MinorCPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 122232723000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:32:17
+gem5 executing on ubuntu, pid 191549
+command line: build/X86/gem5.opt configs/example/se2.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 30254954000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:33:23
+gem5 executing on ubuntu, pid 191625
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --cpu-clock=4GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 30393596500 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:35:13
+gem5 executing on ubuntu, pid 191709
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=256kB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 28372334000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:36:15
+gem5 executing on ubuntu, pid 191755
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=2MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 19752948000 because exiting with last active thread context
+
+
+
+
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/mem_interface.cc:791: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 21.2.1.0
+gem5 compiled Apr 27 2023 04:53:59
+gem5 started Apr 27 2023 05:37:11
+gem5 executing on ubuntu, pid 191802
+command line: build/X86/gem5.opt configs/example/se1.py --cpu-type=DerivO3CPU --mem-type=DDR3_1600_8x8 --caches --l1d_size=64kB --l1i_size=64kB --l2cache --l2_size=16MB --cpu-clock=1GHz --cmd=/home/xxa/Desktop/Arch_Labs/Lab2/cs251a-microbench-master/spmv
+
+**** REAL SIMULATION ****
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+build/X86/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/X86/arch/x86/cpuid.cc:180: warn: x86 cpuid family 0x0000: unimplemented function 13
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+Exiting @ tick 13600672000 because exiting with last active thread context
+
+
+
+
+
+
+
+
