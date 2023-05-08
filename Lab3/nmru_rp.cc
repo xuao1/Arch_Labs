@@ -4,6 +4,7 @@
 #include <memory>
 #include <vector>
 
+#include "base/random.hh"
 #include "params/NMRURP.hh"
 #include "sim/cur_tick.hh"
 
@@ -62,7 +63,7 @@ NMRU::getVictim(const ReplacementCandidates& candidates) const
 
     // Remove the choosen candidate
     std::vector<ReplaceableEntry*> new_candidates(candidates.begin(), candidates.end());
-    new_candidates.erase(remaining_candidates.begin() + max_index);
+    new_candidates.erase(new_candidates.begin() + max_index);
 
     //Select a random entry from the remaining candidates
     ReplaceableEntry* victim = new_candidates[random_mt.random<unsigned>(0, new_candidates.size() - 1)];
