@@ -26,12 +26,12 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "mem/cache/replacement_policies/lru_rp.hh"
+#include "mem/cache/replacement_policies/nmru_rp.hh"
 
 #include <cassert>
 #include <memory>
 
-#include "params/LRURP.hh"
+#include "params/NMRURP.hh"
 #include "sim/cur_tick.hh"
 
 namespace gem5
@@ -41,37 +41,37 @@ GEM5_DEPRECATED_NAMESPACE(ReplacementPolicy, replacement_policy);
 namespace replacement_policy
 {
 
-LRU::LRU(const Params &p)
+NMRU::NMRU(const Params &p)
   : Base(p)
 {
 }
 
 void
-LRU::invalidate(const std::shared_ptr<ReplacementData>& replacement_data)
+NMRU::invalidate(const std::shared_ptr<ReplacementData>& replacement_data)
 {
     // Reset last touch timestamp
-    std::static_pointer_cast<LRUReplData>(
+    std::static_pointer_cast<NMRUReplData>(
         replacement_data)->lastTouchTick = Tick(0);
 }
 
 void
-LRU::touch(const std::shared_ptr<ReplacementData>& replacement_data) const
+NMRU::touch(const std::shared_ptr<ReplacementData>& replacement_data) const
 {
     // Update last touch timestamp
-    std::static_pointer_cast<LRUReplData>(
+    std::static_pointer_cast<NMRUReplData>(
         replacement_data)->lastTouchTick = curTick();
 }
 
 void
-LRU::reset(const std::shared_ptr<ReplacementData>& replacement_data) const
+NMRU::reset(const std::shared_ptr<ReplacementData>& replacement_data) const
 {
     // Set last touch timestamp
-    std::static_pointer_cast<LRUReplData>(
+    std::static_pointer_cast<NMRUReplData>(
         replacement_data)->lastTouchTick = curTick();
 }
 
 ReplaceableEntry*
-LRU::getVictim(const ReplacementCandidates& candidates) const
+NMRU::getVictim(const ReplacementCandidates& candidates) const
 {
     // There must be at least one replacement candidate
     assert(candidates.size() > 0);
@@ -80,9 +80,9 @@ LRU::getVictim(const ReplacementCandidates& candidates) const
     ReplaceableEntry* victim = candidates[0];
     for (const auto& candidate : candidates) {
         // Update victim entry if necessary
-        if (std::static_pointer_cast<LRUReplData>(
+        if (std::static_pointer_cast<NMRUReplData>(
                     candidate->replacementData)->lastTouchTick <
-                std::static_pointer_cast<LRUReplData>(
+                std::static_pointer_cast<NMRUReplData>(
                     victim->replacementData)->lastTouchTick) {
             victim = candidate;
         }
@@ -92,9 +92,9 @@ LRU::getVictim(const ReplacementCandidates& candidates) const
 }
 
 std::shared_ptr<ReplacementData>
-LRU::instantiateEntry()
+NMRU::instantiateEntry()
 {
-    return std::shared_ptr<ReplacementData>(new LRUReplData());
+    return std::shared_ptr<ReplacementData>(new NMRUReplData());
 }
 
 } // namespace replacement_policy

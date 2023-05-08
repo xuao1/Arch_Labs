@@ -32,25 +32,25 @@
  * The victim is chosen using the last touch timestamp.
  */
 
-#ifndef __MEM_CACHE_REPLACEMENT_POLICIES_LRU_RP_HH__
-#define __MEM_CACHE_REPLACEMENT_POLICIES_LRU_RP_HH__
+#ifndef __MEM_CACHE_REPLACEMENT_POLICIES_NMRU_RP_HH__
+#define __MEM_CACHE_REPLACEMENT_POLICIES_NMRU_RP_HH__
 
 #include "mem/cache/replacement_policies/base.hh"
 
 namespace gem5
 {
 
-struct LRURPParams;
+struct NMRURPParams;
 
 GEM5_DEPRECATED_NAMESPACE(ReplacementPolicy, replacement_policy);
 namespace replacement_policy
 {
 
-class LRU : public Base
+class NMRU : public Base
 {
   protected:
-    /** LRU-specific implementation of replacement data. */
-    struct LRUReplData : ReplacementData
+    /** NMRU-specific implementation of replacement data. */
+    struct NMRUReplData : ReplacementData
     {
         /** Tick on which the entry was last touched. */
         Tick lastTouchTick;
@@ -58,13 +58,13 @@ class LRU : public Base
         /**
          * Default constructor. Invalidate data.
          */
-        LRUReplData() : lastTouchTick(0) {}
+        NMRUReplData() : lastTouchTick(0) {}
     };
 
   public:
-    typedef LRURPParams Params;
-    LRU(const Params &p);
-    ~LRU() = default;
+    typedef NMRURPParams Params;
+    NMRU(const Params &p);
+    ~NMRU() = default;
 
     /**
      * Invalidate replacement data to set it as the next probable victim.
@@ -94,7 +94,7 @@ class LRU : public Base
                                                                      override;
 
     /**
-     * Find replacement victim using LRU timestamps.
+     * Find replacement victim using NMRU timestamps.
      *
      * @param candidates Replacement candidates, selected by indexing policy.
      * @return Replacement entry to be replaced.
@@ -113,4 +113,4 @@ class LRU : public Base
 } // namespace replacement_policy
 } // namespace gem5
 
-#endif // __MEM_CACHE_REPLACEMENT_POLICIES_LRU_RP_HH__
+#endif // __MEM_CACHE_REPLACEMENT_POLICIES_NMRU_RP_HH__
