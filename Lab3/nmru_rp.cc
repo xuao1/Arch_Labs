@@ -68,16 +68,6 @@ NMRU::getVictim(const ReplacementCandidates& candidates) const
     //Select a random entry from the remaining candidates
     ReplaceableEntry* victim = new_candidates[random_mt.random<unsigned>(0, new_candidates.size() - 1)];
 
-    // Visit all candidates to search for an invalid entry. If one is found,
-    // its eviction is prioritized
-    for (const auto& candidate : candidates) {
-        if (!std::static_pointer_cast<NMRUReplData>(
-                    candidate->replacementData)->valid) {
-            victim = candidate;
-            break;
-        }
-    }
-
     return victim;
 }
 
