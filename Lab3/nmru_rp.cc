@@ -71,7 +71,7 @@ NMRU::getVictim(const ReplacementCandidates& candidates) const
     // Visit all candidates to search for an invalid entry. If one is found,
     // its eviction is prioritized
     for (const auto& candidate : candidates) {
-        if (!std::static_pointer_cast<RandomReplData>(
+        if (!std::static_pointer_cast<NMRUReplData>(
                     candidate->replacementData)->valid) {
             victim = candidate;
             break;
