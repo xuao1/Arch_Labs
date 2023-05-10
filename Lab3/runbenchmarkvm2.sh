@@ -8,7 +8,7 @@ build/X86/gem5.opt \
     --cpu-type=O3CPU \
     --mem-type=DDR3_1600_8x8 \
     --caches \
-    --l1d_size=128B \
+    --l1d_size=1kB \
     --l1i_size=64kB \
     --l2cache \
     --l2_size=2MB \
@@ -26,7 +26,7 @@ build/X86/gem5.opt \
     --cpu-type=O3CPU \
     --mem-type=DDR3_1600_8x8 \
     --caches \
-    --l1d_size=128B \
+    --l1d_size=1kB \
     --l1i_size=64kB \
     --l2cache \
     --l2_size=2MB \
@@ -44,7 +44,7 @@ build/X86/gem5.opt \
     --cpu-type=O3CPU \
     --mem-type=DDR3_1600_8x8 \
     --caches \
-    --l1d_size=128B \
+    --l1d_size=1kB \
     --l1i_size=64kB \
     --l2cache \
     --l2_size=2MB \
@@ -62,7 +62,7 @@ build/X86/gem5.opt \
     --cpu-type=O3CPU \
     --mem-type=DDR3_1600_8x8 \
     --caches \
-    --l1d_size=128B \
+    --l1d_size=1kB \
     --l1i_size=64kB \
     --l2cache \
     --l2_size=2MB \
@@ -80,7 +80,7 @@ build/X86/gem5.opt \
     --cpu-type=O3CPU \
     --mem-type=DDR3_1600_8x8 \
     --caches \
-    --l1d_size=128B \
+    --l1d_size=1kB \
     --l1i_size=64kB \
     --l2cache \
     --l2_size=2MB \
@@ -98,7 +98,7 @@ build/X86/gem5.opt \
     --cpu-type=O3CPU \
     --mem-type=DDR3_1600_8x8 \
     --caches \
-    --l1d_size=128B \
+    --l1d_size=1kB \
     --l1i_size=64kB \
     --l2cache \
     --l2_size=2MB \
@@ -116,7 +116,7 @@ build/X86/gem5.opt \
     --cpu-type=O3CPU \
     --mem-type=DDR3_1600_8x8 \
     --caches \
-    --l1d_size=128B \
+    --l1d_size=1kB \
     --l1i_size=64kB \
     --l2cache \
     --l2_size=2MB \
@@ -134,7 +134,7 @@ build/X86/gem5.opt \
     --cpu-type=O3CPU \
     --mem-type=DDR3_1600_8x8 \
     --caches \
-    --l1d_size=128B \
+    --l1d_size=1kB \
     --l1i_size=64kB \
     --l2cache \
     --l2_size=2MB \
@@ -152,7 +152,7 @@ build/X86/gem5.opt \
     --cpu-type=O3CPU \
     --mem-type=DDR3_1600_8x8 \
     --caches \
-    --l1d_size=128B \
+    --l1d_size=1kB \
     --l1i_size=64kB \
     --l2cache \
     --l2_size=2MB \
