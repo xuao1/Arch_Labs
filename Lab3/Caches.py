@@ -48,7 +48,7 @@ from m5.objects import *
 
 class L1Cache(Cache):
     assoc = 2
-    tag_latency = 2
+    tag_latency = 1
     data_latency = 2
     response_latency = 2
     mshrs = 4
