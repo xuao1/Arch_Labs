@@ -1034,11 +1034,10 @@
                     "prefetcher": null,
                     "replace_expansions": true,
                     "replacement_policy": {
-                        "type": "BIPRP",
-                        "cxx_class": "gem5::replacement_policy::BIP",
+                        "type": "NMRURP",
+                        "cxx_class": "gem5::replacement_policy::NMRU",
                         "name": "replacement_policy",
                         "path": "system.cpu.dcache.replacement_policy",
-                        "btp": 0,
                         "eventq_index": 0
                     },
                     "response_latency": 2,
@@ -1505,11 +1504,10 @@
             "prefetcher": null,
             "replace_expansions": true,
             "replacement_policy": {
-                "type": "BIPRP",
-                "cxx_class": "gem5::replacement_policy::BIP",
+                "type": "NMRURP",
+                "cxx_class": "gem5::replacement_policy::NMRU",
                 "name": "replacement_policy",
                 "path": "system.l2.replacement_policy",
-                "btp": 0,
                 "eventq_index": 0
             },
             "response_latency": 20,

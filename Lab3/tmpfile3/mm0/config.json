@@ -1004,7 +1004,7 @@
                     "addr_ranges": [
                         "0:18446744073709551615"
                     ],
-                    "assoc": 8,
+                    "assoc": 16,
                     "clk_domain": "system.cpu_clk_domain",
                     "clusivity": "mostly_incl",
                     "compressor": null,
@@ -1034,8 +1034,8 @@
                     "prefetcher": null,
                     "replace_expansions": true,
                     "replacement_policy": {
-                        "type": "NMRURP",
-                        "cxx_class": "gem5::replacement_policy::NMRU",
+                        "type": "RandomRP",
+                        "cxx_class": "gem5::replacement_policy::Random",
                         "name": "replacement_policy",
                         "path": "system.cpu.dcache.replacement_policy",
                         "eventq_index": 0
@@ -1044,13 +1044,13 @@
                     "sequential_access": false,
                     "size": 65536,
                     "system": "system",
-                    "tag_latency": 2,
+                    "tag_latency": 1,
                     "tags": {
                         "type": "BaseSetAssoc",
                         "cxx_class": "gem5::BaseSetAssoc",
                         "name": "tags",
                         "path": "system.cpu.dcache.tags",
-                        "assoc": 8,
+                        "assoc": 16,
                         "block_size": 64,
                         "clk_domain": "system.cpu_clk_domain",
                         "entry_size": 64,
@@ -1060,7 +1060,7 @@
                             "cxx_class": "gem5::SetAssociative",
                             "name": "indexing_policy",
                             "path": "system.cpu.dcache.tags.indexing_policy",
-                            "assoc": 8,
+                            "assoc": 16,
                             "entry_size": 64,
                             "eventq_index": 0,
                             "size": 65536
@@ -1083,7 +1083,7 @@
                         "sequential_access": false,
                         "size": 65536,
                         "system": "system",
-                        "tag_latency": 2,
+                        "tag_latency": 1,
                         "warmup_percentage": 0
                     },
                     "tgts_per_mshr": 20,
@@ -1256,7 +1256,7 @@
                     "sequential_access": false,
                     "size": 65536,
                     "system": "system",
-                    "tag_latency": 2,
+                    "tag_latency": 1,
                     "tags": {
                         "type": "BaseSetAssoc",
                         "cxx_class": "gem5::BaseSetAssoc",
@@ -1295,7 +1295,7 @@
                         "sequential_access": false,
                         "size": 65536,
                         "system": "system",
-                        "tag_latency": 2,
+                        "tag_latency": 1,
                         "warmup_percentage": 0
                     },
                     "tgts_per_mshr": 20,
@@ -1504,8 +1504,8 @@
             "prefetcher": null,
             "replace_expansions": true,
             "replacement_policy": {
-                "type": "NMRURP",
-                "cxx_class": "gem5::replacement_policy::NMRU",
+                "type": "RandomRP",
+                "cxx_class": "gem5::replacement_policy::Random",
                 "name": "replacement_policy",
                 "path": "system.l2.replacement_policy",
                 "eventq_index": 0
