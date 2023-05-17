@@ -30,7 +30,13 @@ void stencil(double *Y, double alpha, const int N)
 
 void daxpy_unroll(double *X, double *Y, double alpha, const int N)
 {
-    for (int i = 0; i < N; i++)
+    int i;
+    for (i = 0; i < N - 1; i += 2)
+    {
+        Y[i] = alpha * X[i] + Y[i];
+        Y[i + 1] = alpha * X[i + 1] + Y[i + 1];
+    }
+    for (; i < N; i++)
     {
         Y[i] = alpha * X[i] + Y[i];
     }
@@ -38,7 +44,13 @@ void daxpy_unroll(double *X, double *Y, double alpha, const int N)
 
 void daxsbxpxy_unroll(double *X, double *Y, double alpha, double beta, const int N)
 {
-    for (int i = 0; i < N; i++)
+    int i;
+    for (i = 0; i < N - 1; i += 2)
+    {
+        Y[i] = alpha * X[i] * X[i] + beta * X[i] + X[i] * Y[i];
+        Y[i + 1] = alpha * X[i + 1] * X[i + 1] + beta * X[i + 1] + X[i + 1] * Y[i + 1];
+    }
+    for (; i < N; i++)
     {
         Y[i] = alpha * X[i] * X[i] + beta * X[i] + X[i] * Y[i];
     }
@@ -46,9 +58,15 @@ void daxsbxpxy_unroll(double *X, double *Y, double alpha, double beta, const int
 
 void stencil_unroll(double *Y, double alpha, const int N)
 {
-    for (int i = 1; i < N-1; i++)
+    int i;
+    for (i = 1; i < N - 2; i += 2)
     {
-        Y[i] = alpha * Y[i-1] + Y[i] + alpha * Y[i+1];
+        Y[i] = alpha * Y[i - 1] + Y[i] + alpha * Y[i + 1];
+        Y[i + 1] = alpha * Y[i] + Y[i + 1] + alpha * Y[i + 2]£»
+    }
+    for (; i < N - 1; i++)
+    {
+        Y[i] = alpha * Y[i - 1] + Y[i] + alpha * Y[i + 1];
     }
 }
 
