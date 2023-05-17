@@ -62,7 +62,7 @@ void stencil_unroll(double *Y, double alpha, const int N)
     for (i = 1; i < N - 2; i += 2)
     {
         Y[i] = alpha * Y[i - 1] + Y[i] + alpha * Y[i + 1];
-        Y[i + 1] = alpha * Y[i] + Y[i + 1] + alpha * Y[i + 2]£»
+        Y[i + 1] = alpha * Y[i] + Y[i + 1] + alpha * Y[i + 2];
     }
     for (; i < N - 1; i++)
     {
