@@ -70,7 +70,7 @@ int main()
 
     int flag = 1;
     for(int i = 0; i < N * N; i++) {
-        printf("%d %d\n", h_c[i], v_c[i]);
+        printf("%f %f\n", h_c[i], v_c[i]);
         if(abs(h_c[i] - v_c[i]) > 0.00001){
             flag = 0;
             // break;
