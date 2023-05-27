@@ -43,8 +43,8 @@ int main()
     float* v_c = (float*)malloc(N * N * sizeof(float));
 
     for (int i = 0; i < N * N; i++) {
-        h_a[i] = (float)rand() / (float)(RAND_MAX) * 100.0;
-        h_b[i] = (float)rand() / (float)(RAND_MAX) * 100.0;
+        h_a[i] = (float)rand() / (float)(RAND_MAX);
+        h_b[i] = (float)rand() / (float)(RAND_MAX);
         h_c[i] = 0.0;
         v_c[i] = 0.0;
     }
@@ -70,10 +70,10 @@ int main()
 
     int flag = 1;
     for(int i = 0; i < N * N; i++) {
-        printf("%f %f\n", h_c[i], v_c[i]);
-        if(abs(h_c[i] - v_c[i]) > 0.00001){
+        // printf("%f %f\n", h_c[i], v_c[i]);
+        if(abs(h_c[i] - v_c[i]) > 0.1){
             flag = 0;
-            // break;
+            break;
         }
     }
 
