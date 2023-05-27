@@ -58,7 +58,7 @@ int main()
     cudaMemcpy(d_b, h_b, N * N * sizeof(float), cudaMemcpyHostToDevice);
     
     dim3 blockSize(16, 16);
-    dim3 gridSize((m + blockSize.x - 1) / blockSize.x, (k + blockSize.y - 1) / blockSize.y);
+    dim3 gridSize((N + blockSize.x - 1) / blockSize.x, (N + blockSize.y - 1) / blockSize.y);
     
     matrixMulOnGPU<<<gridSize, blockSize>>>(d_a, d_b, d_c, m, n, k);
     
