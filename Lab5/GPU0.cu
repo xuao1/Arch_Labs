@@ -60,7 +60,7 @@ int main()
     dim3 blockSize(16, 16);
     dim3 gridSize((N + blockSize.x - 1) / blockSize.x, (N + blockSize.y - 1) / blockSize.y);
     
-    matrixMulOnGPU<<<gridSize, blockSize>>>(d_a, d_b, d_c, m, n, k);
+    matrixMulOnGPU<<<gridSize, blockSize>>>(d_a, d_b, d_c, N, N, N);
     
     cudaDeviceSynchronize();
     
