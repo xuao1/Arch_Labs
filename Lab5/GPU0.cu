@@ -43,8 +43,8 @@ int main()
     float* v_c = (float*)malloc(N * N * sizeof(float));
 
     for (int i = 0; i < N * N; i++) {
-        h_a[i] = (float)rand() / (float)(RAND_MAX);
-        h_b[i] = (float)rand() / (float)(RAND_MAX);
+        h_a[i] = (float)rand() / (float)(RAND_MAX) * 100.0;
+        h_b[i] = (float)rand() / (float)(RAND_MAX) * 100.0;
         h_c[i] = 0.0;
         v_c[i] = 0.0;
     }
