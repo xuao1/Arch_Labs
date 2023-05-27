@@ -81,7 +81,7 @@ int main() {
 
     printf("CPU time: %f ms.\n", cpu_time_used);
 
-    /*
+    
     // transpose(B);
     gemm_baseline(A, B, C_base);
 
@@ -95,7 +95,7 @@ int main() {
 
 	if(flag)  printf("Results are correct.\n");
 	else printf("Results are wrong.\n");
-    */
+    
 
     free(A);
     free(B);
