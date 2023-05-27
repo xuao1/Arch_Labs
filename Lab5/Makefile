@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -mfma
 
-all: CPU0 CPU1 CPU2 CPU2.1
+all: CPU0 CPU1 CPU2 CPU2_1
 
 CPU0: CPU0.c
 	$(CC) -o CPU0 CPU0.c
@@ -12,8 +12,8 @@ CPU1: CPU1.c
 CPU2: CPU2.c
 	$(CC) $(CFLAGS) -o CPU2 CPU2.c
 
-CPU2.1: CPU2.c
-	$(CC) $(CFLAGS) -o CPU2.1 CPU2.c
+CPU2_1: CPU2_1.c
+	$(CC) $(CFLAGS) -o CPU2_1 CPU2_1.c
 
 clean:
-	rm -f CPU0 CPU1 CPU2 CPU2.1
+	rm -f CPU0 CPU1 CPU2 CPU2_1
