@@ -66,7 +66,6 @@ int main()
     
     cudaMemcpy(h_c, d_c, N * N * sizeof(float), cudaMemcpyDeviceToHost);
     
-    /*
     gemm_baseline(h_a, h_b, v_c);
 
     int flag = 1;
@@ -80,7 +79,6 @@ int main()
 
 	if(flag)  printf("Results are correct.\n");
 	else printf("Results are wrong.\n");
-    */
     cudaFree(d_a);
     cudaFree(d_b);
     cudaFree(d_c);
