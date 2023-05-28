@@ -33,8 +33,8 @@ __global__ void matrixMulOnGPU(float* m_a, float* m_b, float* m_r, unsigned int 
 
 int main()
 {
-    int n;
-    scanf("%d", &n);
+    int n, BLOCK_SIZE;
+    scanf("%d %d", &n, &BLOCK_SIZE);
     N = 1 << n;
     
     float* h_a = (float*)malloc(N * N * sizeof(float));
@@ -57,7 +57,7 @@ int main()
     cudaMemcpy(d_a, h_a, N * N * sizeof(float), cudaMemcpyHostToDevice);
     cudaMemcpy(d_b, h_b, N * N * sizeof(float), cudaMemcpyHostToDevice);
     
-    dim3 blockSize(16, 16);
+    dim3 blockSize(BLOCK_SIZE, BLOCK_SIZE);
     dim3 gridSize((N + blockSize.x - 1) / blockSize.x, (N + blockSize.y - 1) / blockSize.y);
     
     matrixMulOnGPU<<<gridSize, blockSize>>>(d_a, d_b, d_c, N, N, N);
