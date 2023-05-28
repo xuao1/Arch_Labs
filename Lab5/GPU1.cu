@@ -1,6 +1,6 @@
 #include <cuda.h>
 #include <stdio.h>
-#define BLOCK_SIZE 32
+#define BLOCK_SIZE 4
 
 int N = (1 << 8);
 
