@@ -12,3 +12,6 @@ echo -e "\n"
 echo "N = 4096"
 echo "12" | nvprof ./GPU1
 echo -e "\n"
+echo "N = 8192"
+echo "13" | nvprof ./GPU1
+echo -e "\n"
