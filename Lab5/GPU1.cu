@@ -1,8 +1,8 @@
 #include <cuda.h>
 #include <stdio.h>
+#define BLOCK_SIZE 32
 
 int N = (1 << 8);
-int BLOCK_SIZE = 32;
 
 void gemm_baseline(float* A, float* B, float* C) {
     for (int i = 0; i < N; i++) {
@@ -30,7 +30,7 @@ __global__ void matrixMulOnGPUWithShared(float* m_a, float* m_b, float* m_r, uns
 
 	float result_temp = 0.0f;
 
-	for (int index_a = begin_a, int index_b = begin_b; index_a < end_a; index_a += step_a, index_b += step_b)
+	for (int index_a = begin_a, index_b = begin_b; index_a < end_a; index_a += step_a, index_b += step_b)
 	{
 		__shared__ float SubMat_A[BLOCK_SIZE][BLOCK_SIZE];
 		__shared__ float SubMat_B[BLOCK_SIZE][BLOCK_SIZE];
@@ -50,7 +50,7 @@ __global__ void matrixMulOnGPUWithShared(float* m_a, float* m_b, float* m_r, uns
 		__syncthreads(); // 确保所有线程都已经完成了计算
 	}
 
-	int begin_result = block_y * blockDim.y * k + begin_b;
+	int begin_result = blockIdx.y * blockDim.y * k + begin_b;
 	m_r[begin_result + threadIdx.y * k + threadIdx.x] = result_temp;
 }
 
