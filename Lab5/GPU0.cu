@@ -1,5 +1,6 @@
 #include <cuda.h>
 #include <stdio.h>
+#include <time.h>
 
 int N = (1 << 8);
 
@@ -33,6 +34,7 @@ __global__ void matrixMulOnGPU(float* m_a, float* m_b, float* m_r, unsigned int 
 
 int main()
 {
+    srand(time(NULL));
     int n, BLOCK_SIZE;
     scanf("%d %d", &n, &BLOCK_SIZE);
     N = 1 << n;
